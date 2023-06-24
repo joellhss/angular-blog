@@ -1,0 +1,9 @@
+.menu__title__container {
+  border-bottom: 1px solid #898989;
+  padding: 30px 0;
+  width: 100%;
+}
+
+.menu__title__container img {
+  width: 100%;
+}

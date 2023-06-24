@@ -1,0 +1,41 @@
+* {
+  color: #898989;
+}
+
+header {
+  border-bottom: 1px solid #898989;
+  padding: 30px 0;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  gap: 50px;
+
+  align-items: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.logo {
+  border-radius: 100%;
+  background-color: blueviolet;
+  height: 50px;
+  width: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo a {
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+}

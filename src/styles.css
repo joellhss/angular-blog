@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #1a1b1f;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100vw;
+
+  font-family: 'Poppins', sans-serif;
+}
