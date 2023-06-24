@@ -1,0 +1,27 @@
+.container__home {
+  width: 100vw;
+  max-width: 1140px;
+}
+
+.articles {
+  display: flex;
+  margin-top: 80px;
+}
+
+.articles__main, .articles__others {
+  width: 50%;
+}
+
+.articles__main {
+  padding-right: 24px;
+}
+
+.articles__others {
+  padding-left: 24px;
+}
+
+hr {
+  margin: 32px 0;
+  opacity: 0.1;
+  border-width: 1px;
+}

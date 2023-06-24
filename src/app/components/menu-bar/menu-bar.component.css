@@ -3,8 +3,8 @@
 }
 
 header {
-  border-bottom: 1px solid #898989;
-  padding: 30px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  padding: 40px 0 50px;
 
   display: flex;
   justify-content: space-between;
@@ -23,9 +23,14 @@ nav ul li a {
   background-color: transparent;
 }
 
+nav ul li a:hover {
+  color: white;
+  transition-duration: 500ms;
+}
+
 .logo {
   border-radius: 100%;
-  background-color: blueviolet;
+  background: linear-gradient(to top, #b500ff, #ff00cc);
   height: 50px;
   width: 50px;
 
@@ -37,5 +42,24 @@ nav ul li a {
 .logo a {
   color: white;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 24px;
+}
+
+.socialMedia ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.socialMedia ul li a {
+  text-decoration: none;
+}
+
+.socialMedia .ph-fill {
+  font-size: 30px;
+}
+
+.socialMedia .ph-fill:hover {
+  color: white;
+  transition-duration: 500ms;
 }
