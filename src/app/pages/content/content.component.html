@@ -1,0 +1,17 @@
+<div class="container__content">
+  <div class="anchor__back">
+    <a [routerLink]="['']">Voltar</a>
+  </div>
+  <h1 class="content__title">{{contentTitle}}</h1>
+  <p class="content__date">{{contentDate}}</p>
+  <div class="content__img">
+    <img src="{{photoCover}}" alt="">
+  </div>
+  <div class="content__description">
+    <p>{{contentDescription}}</p>
+  </div>
+  <div class="content__text">
+    <p *ngFor="let text of contentText">{{text}}</p>
+
+  </div>
+</div>

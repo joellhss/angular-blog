@@ -12,4 +12,6 @@ export class SmallCardComponent {
   cardDate: string = "";
   @Input()
   cardTitle: string = "";
+  @Input()
+  Id: string = "";
 }

@@ -1,0 +1,18 @@
+footer {
+  border-top: 1px solid rgba(255,255,255,0.1);
+  margin-top: 50px;
+  padding: 30px 0 50px;
+
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.footer__anchor {
+  text-decoration: none;
+}
+
+.footer__anchor:hover {
+  color: #fa425b;
+}
+
